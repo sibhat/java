@@ -12,15 +12,15 @@ public class Dog {
     private  @Id
     @GeneratedValue Long id;
 
-    private String bread;
+    private String breed;
     private Integer weight;
     private boolean indoor;
     public Dog(){
 
     }
 
-    public Dog(String bread, int weight, boolean indoor) {
-        this.bread = bread;
+    public Dog(String breed, int weight, boolean indoor) {
+        this.breed = breed;
         this.weight = weight;
         this.indoor = indoor;
     }
