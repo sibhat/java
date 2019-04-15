@@ -10,7 +10,8 @@ Create a Java RESTful API Web application using Web, DevTools, H2, hateoas, and 
 ## Data
 Seed the data with the following  
 
-new Dogs("Springer", 50, false);  
+new Dogs("Springer", 50, false);
+new Dogs("Springer2", 50, false);
 new Dogs("Bulldog", 50, true);  
 new Dogs("Collie", 50, false);  
 new Dogs("Boston Terrie", 35, true);  
